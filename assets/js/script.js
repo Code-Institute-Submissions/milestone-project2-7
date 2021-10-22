@@ -44,10 +44,36 @@ let game = {
         arrLi.forEach(function(element, i){
           element.textContent = q.alternatives[i];
         });
-      },
+    },
     
-    //Verify the option selected by the user
-    checkAnswer: function() {
+    /**
+     * Verify the option selected by the user
+     * @param {integer} userSelected 
+     */
+    checkAnswer: function(userSelected) {
+    
+        let currQuestion = questions[this.currLocation];
+        
+        if(currQuestion.correctAnswer == userSelected) {
+          // correct
+          console.log('correct');
+          this.score++;
+          this.showResult(true);
+        }
+        else {
+          // not correct
+          console.log('wrong');
+          this.showResult(false);
+        }
+        
+        // Update score
+        this.updateScore();
+        
+        // increase position
+        this.increasePos();
+        
+        // show next question
+        this.showQuery(questions[this.currLocation]);
     },
     
     //Update position of the array
