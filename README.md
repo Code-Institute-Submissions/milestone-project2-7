@@ -3,28 +3,28 @@ This game tries to be a clone of the typical language learning programs such as 
 Once the option is selected, the program will tell the user if he was right or wrong and will update the score.
 The game has 20 questions after which the score is reset and the game starts again.
 
-![Imgur](https://i.imgur.com/Ag9sCZM.png)
+![Responsive](https://raw.githubusercontent.com/rodolazo/milestone-project2/main/assets/images/responsive.png)
 
 ## Features
 - Heading. Featured at the top of the page, the Language Game heading is easy to see for the user. Upon viewing the page, the user will be able to see the name of the game.
 
-![Imgur](https://i.imgur.com/NC4AjAQ.png)
+![Heading](https://raw.githubusercontent.com/rodolazo/milestone-project2/main/assets/images/heading.png)
 
 - The game has a column of buttons on which the user must click. The spanish word is on the top of them . When you hover any of the options, the background is changing its color.
 
-![Imgur](https://i.imgur.com/EMKVGVr.png)
+![Control Area](https://raw.githubusercontent.com/rodolazo/milestone-project2/main/assets/images/playarea.png)
 
 - The game tells the user if he has made a mistake by indicating the correct answer.
 
-![Imgur](https://i.imgur.com/72d8y64.png)
+![Incorrect Message](https://raw.githubusercontent.com/rodolazo/milestone-project2/main/assets/images/incorrect.png)
 
 - The game tells the user how many answers are correct.
 
-![Imgur](https://i.imgur.com/cTqdrNc.png)
+![Score](https://raw.githubusercontent.com/rodolazo/milestone-project2/main/assets/images/correct.png)
 
 - Once the game ends, a pop-up window appears indicating that the game has finished and it is reinitialized.
 
-![Imgur](https://i.imgur.com/JzoVHXA.png)
+![Pop up Window](https://raw.githubusercontent.com/rodolazo/milestone-project2/main/assets/images/alert.png)
 
 ## Testing
 
