@@ -126,6 +126,6 @@ let game = {
     
 };
   
-  // begin the application
-  game.begin();
+// begin the application
+game.begin();
   

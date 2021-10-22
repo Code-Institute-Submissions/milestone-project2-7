@@ -81,8 +81,8 @@ let questions = [
       correctAnswer: 2
     },
     {
-      spanish: 'Almorzar',
-      alternatives: ['Have lunch', 'Have dinner', 'Clean the house', 'Pick up the children'],
+      spanish: 'Dos',
+      alternatives: ['Two', 'Three', 'Four', 'Ten'],
       correctAnswer: 0
     },
     {
