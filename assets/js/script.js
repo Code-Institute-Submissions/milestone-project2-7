@@ -86,13 +86,15 @@ let game = {
           this.currLocation = 0;
           this.score = 0;
           alert('Ha finalizado el juego!!!');
-          
-    
         }
     },
     
-    //Print score on the board game
+    /**
+     * Print score on the board game
+     */
     updateScore: function() {
+        let scoreDiv = document.getElementById('score');
+        scoreDiv.textContent = `Your score: ${this.score}`;
     },
     
     //Print result of selection on the board game
