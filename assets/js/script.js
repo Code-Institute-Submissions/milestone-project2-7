@@ -76,8 +76,19 @@ let game = {
         this.showQuery(questions[this.currLocation]);
     },
     
-    //Update position of the array
-    increasePos: function() {      
+    /**
+     * Update position of the Array
+     */
+    increasePos: function() {
+        this.currLocation++;
+        
+        if(this.currLocation == questions.length){
+          this.currLocation = 0;
+          this.score = 0;
+          alert('Ha finalizado el juego!!!');
+          
+    
+        }
     },
     
     //Print score on the board game
